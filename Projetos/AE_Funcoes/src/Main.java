@@ -1,17 +1,50 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+/* Tipos de retornos de Funções
+- void = sem retorno
+- Double, Float, Long, Int, Short, Byte, Boolean, String e Char
+- Instâncias de classes (criar uma classe)
+*/
+
+import java.util.Scanner;
 public class Main {
+
+    // MÉTODOS
+
+    void hello_0(){
+        System.out.println("Olá mundo");
+    }
+    void hello_1(){
+        System.out.println("Olá mundo");
+    }
+
+    String hello_2(){
+        return "Olá mundo...";
+    }
+
+    int soma(int n1, int n2){
+        hello_0();
+        return n1 + n2;
+    }
+
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Chamando a função
+        new Main().hello_1();
+        System.out.println(new Main().hello_2());
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        // Outra forma de usar o hello_2
+        String abc = new Main().hello_2();
+        System.out.println(abc + "\n");
+
+
+        // ==============================
+        // Chamando a função soma
+        int n1 = 8, n2 = 9;
+        System.out.println(new Main().soma(n1, n2) + "\n");
+
+        int soma = new Main().soma(88, 99);
+        System.out.println(soma);
+
+
+
     }
 }
