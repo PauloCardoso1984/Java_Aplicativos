@@ -26,7 +26,7 @@ public class Operadores {
         *
         * Exemplo -> if (a && b || c && d) {}
 
-        * 
+        *
         * */
     }
 }
