@@ -36,8 +36,5 @@ public class Main {
         String str2 = "                pauloreginaldocardoso@gmail.com           ".trim();
         System.out.println(str2.trim());
 
-        System.out.println(str2.equals("pauloreginaldocardoso@gmail.com"));
-
-
-    }
+        System.out.println(str2.equals("pauloreginaldocardoso@gmail.com"));}
 }
