@@ -8,6 +8,6 @@ public class Main {
         System.out.print("Informe um número : ");
         int a = sc.nextByte();
 
-        System.out.println("Valor digitado: " + a); 
+        System.out.println("Valor digitado: " + a);
     }
 }
