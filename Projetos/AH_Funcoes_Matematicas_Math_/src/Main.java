@@ -30,6 +30,6 @@ public class Main {
 
         // USANDO FUNÇÕES DE ESCOLHER UM NUEMRO ALEATÓRIO E CON ARREDONDAMENTO
         System.out.println("Número : " + Math.round(Math.random()*100));
-        
+
     }
 }
