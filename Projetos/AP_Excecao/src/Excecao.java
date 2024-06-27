@@ -52,7 +52,7 @@ public class Excecao {
             System.out.println("Volte sempre !!!");
         }
 
-        
+
         // Chamando a função acima
         new Excecao().geradorDeLogin("");
 
